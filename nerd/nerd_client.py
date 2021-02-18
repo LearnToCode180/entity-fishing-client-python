@@ -217,7 +217,6 @@ class NerdClient(ApiClient):
         body = {
             "termVector": terms,
             "entities": [],
-            "onlyNER": "false",
             "customisation": "generic"
         }
 
@@ -258,7 +257,6 @@ class NerdClient(ApiClient):
         body = {
             "text": text,
             "entities": [],
-            "onlyNER": "false",
             "customisation": "generic"
         }
 
@@ -291,7 +289,6 @@ class NerdClient(ApiClient):
         body = {
             "shortText": query,
             "entities": [],
-            "onlyNER": "false",
             "customisation": "generic"
         }
 
